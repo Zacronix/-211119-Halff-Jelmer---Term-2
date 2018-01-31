@@ -1,0 +1,18 @@
+..navbarbanner {
+    text-align: center;
+    width: 100%;
+    background-color: #353535;
+    margin-top: -1.5rem;
+}
+
+..navbarbanner h4 {
+    color: #ea6767;
+    width: 100%;
+    margin: auto;
+    padding: 25px;
+    border-bottom: 4px solid transparent;
+    border-image: linear-gradient(to right, #e53935 , #e35d5b);
+    border-image-slice: 1;
+    font-size: 20px;
+}
+

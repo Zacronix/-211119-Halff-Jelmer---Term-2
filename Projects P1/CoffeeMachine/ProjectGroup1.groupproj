@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{3E28FD02-92DD-4E02-8821-E3579B89467B}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="CoffeeMachine.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\Vending machine\Project1.cbproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="CoffeeMachine">
+        <MSBuild Projects="CoffeeMachine.cbproj"/>
+    </Target>
+    <Target Name="CoffeeMachine:Clean">
+        <MSBuild Projects="CoffeeMachine.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CoffeeMachine:Make">
+        <MSBuild Projects="CoffeeMachine.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="Project1">
+        <MSBuild Projects="..\Vending machine\Project1.cbproj"/>
+    </Target>
+    <Target Name="Project1:Clean">
+        <MSBuild Projects="..\Vending machine\Project1.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Project1:Make">
+        <MSBuild Projects="..\Vending machine\Project1.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="CoffeeMachine;Project1"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="CoffeeMachine:Clean;Project1:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="CoffeeMachine:Make;Project1:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

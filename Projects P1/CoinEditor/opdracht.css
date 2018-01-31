@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: monospace;
+  background-color: #2a2a2a;
+  font-size: 15px;
+}
+
+.title {
+  text-align: center;
+  height: 8.2vh;
+  background-color: blue;
+  margin-top: -3.5vh;
+  width: 100vw;
+}
+
+.title h1 {
+  color: white;
+  padding-top: 3vh;
+  font-size: 3vh;
+}
+
+.main {
+  text-align: right;
+  margin: auto;
+  margin-top: 1%;
+  height: 68.8vh;
+}
+
+.main td {
+  color: white;
+  padding: 0px 10px;
+}
+
+p {
+  color: white;
+  text-align: center;
+}
+
+.editcoin {
+  width: 100vw;
+  height: 3vh;
+  background-color: blue;
+}
+
+.bottom {
+  width: 100vw;
+  height: 3vh;
+  background-color: blue;
+}
+
+input {
+  width: 100vw;
+  height: 3vh;
+  margin-left: -0.18%;
+}

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.541,=C:\Users\j_hal\OneDrive\Documenten\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.530,=C:\Users\j_hal\OneDrive\Documenten\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2017-11-28 11:17:27.485,=C:\Users\j_hal\OneDrive\Documenten\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2017-11-28 11:17:27.525,=C:\Users\j_hal\OneDrive\Documenten\Embarcadero\Studio\Projects\File1.cpp</Transaction>
+    <Transaction>2017-11-28 13:34:42.992,D:\Jelmer\Bureaublad\Skwalle\CoffeeMachine\main.cpp=C:\Users\j_hal\OneDrive\Documenten\Embarcadero\Studio\Projects\File1.cpp</Transaction>
+    <Transaction>2017-11-28 13:34:50.515,D:\Jelmer\Bureaublad\Skwalle\CoffeeMachine\CoffeeMachine1PCH1.h=C:\Users\j_hal\OneDrive\Documenten\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2017-11-28 13:34:58.528,D:\Jelmer\Bureaublad\Skwalle\CoffeeMachine\CoffeeMachine.cbproj=C:\Users\j_hal\OneDrive\Documenten\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
+  </Transactions>
+</BorlandProject>
